@@ -1,0 +1,90 @@
+/* Paleta de Cores */
+:root {
+    --verde-claro: #b5e7a0;
+    --verde-escuro: #5a9c4e;
+    --verde-medio: #84c68c;
+    --branco: #ffffff;
+    --cinza-claro: #f8f9fa;
+    --sombra: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--cinza-claro);
+    font-family: 'Arial', sans-serif;
+}
+
+
+.titulo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--verde-escuro);
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    color: var(--verde-medio);
+}
+
+
+.card {
+    border-radius: 10px;
+    background-color: var(--branco);
+    box-shadow: 0px 4px 10px var(--sombra);
+}
+
+
+.input-estilizado {
+    border-radius: 5px;
+    border: 2px solid var(--verde-medio);
+    transition: 0.3s ease-in-out;
+}
+
+.input-estilizado:focus {
+    border-color: var(--verde-escuro);
+    box-shadow: 0px 0px 5px var(--verde-medio);
+}
+
+
+.btn-custom {
+    background-color: var(--verde-escuro);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: var(--verde-medio);
+    transform: scale(1.05);
+}
+
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: var(--verde-medio);
+    color: var(--branco);
+}
+
+
+.sombra {
+    box-shadow: 0px 4px 10px var(--sombra);
+}
+
+
+.btn-acao {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn-acao:hover {
+    transform: scale(1.2);
+    color: var(--verde-escuro);
+}
